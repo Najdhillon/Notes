@@ -1,0 +1,26 @@
+You Don't Know JS: Up and Going
+
+What is a program?
+
+Also known as source code. A special instructiosn to tell the computer what tasks to perform
+
+What is computer language?
+
+rules for valid format and combinations of instructions. Also known as syntax
+
+What is a statement?
+
+a group of words, numbers, and operators that performs a specific task
+
+What is a variable?
+
+simple boxes you can store any of your stuff in. Variables hold values to be used by the program
+
+What is a literal value?
+
+it stands alone without being stored in a variable.
+
+What is a operators?
+
+= and * characters are operators. They perform actions with the vales and variables such as assignment and mathematic multipication.
+

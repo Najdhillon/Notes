@@ -1,0 +1,49 @@
+Tell me about a project you worked on in the past 6 months?
+
+    Who proposed this project?
+    
+    How did it get prioritized?
+    
+    Who was accountable for this project and how was that determined?
+    
+    How did you resolve/escalate disagreements amongst the project team?
+    
+    How was your manager involved in this project?
+    
+    What was the look back process like, if there was one?
+    
+    If you had to do this project again, how would you do it differently?
+
+How are products decisions made?
+
+    What is the mission and core competency of the company?
+    
+    How do recent product launches fit into that?
+    
+    What are some challenges the company needs to overcome to achieve its mission?
+    
+    How does the company prioritize technical investments vs product investments?
+    
+How has the company helped you achieve your career goals
+
+    Do you and your manager discuss your career goals?
+    
+    How does your manager help you define and execute on those goals?
+    
+    What happens when your personal goals misalign with the highest impact thing you can do at the company now?
+    
+    How do people develop and make progress in their careers within the company?
+    
+    How much responsibility is given to new employees when they start?
+    
+How is the company culture here different than other tech companies?
+
+How flexible the work location and hours are?
+
+What opportunities are there for employees to learn new things?
+
+What is the workflow like?
+
+What is one thing you dislike about working at Osmo?
+
+Does Osmo take ownership of code you work on in spare time, or does all rights to development to products on your own time belong fully to yourself?

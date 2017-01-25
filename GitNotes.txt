@@ -1,0 +1,83 @@
+Notes for Github - A refresher!!!!
+
+I need to set it up 
+
+Git  - Version Control System - used for my managment of source control.
+
+install git
+
+download git from 
+
+https://git-scm.com/downloads
+
+Config our username and email
+
+global refers to current user
+
+git config --global user.name "naj"
+
+git config --global user .email "najdhillon@gmail.com"
+
+if one runs into this issue on a mac Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
+
+simply open xcode on your mac and make sure you are logged in!
+
+git config --list - shows username and email
+
+git help - in bash the actual help feature
+
+ex. git help commit
+
+it will launch a browser with commit help page
+
+Creating our First Repository
+
+pwd - shows the current location
+
+cd .. - jump a folder back
+cd folder - jump into the folder
+
+initialize a repo
+
+once you are in the folder you want to work out of than one simply enters
+
+git init
+
+ls -la - shows you all the hidden files
+
+adding all the files that have been made
+
+git add .
+
+than we commit
+
+git commit -m "Message being added to the commit" (takes a snapshot)
+
+Adding files and the Commit Log
+
+git log - shows your last commits
+
+if one is stuck in the scrollable formation of the commit logs than one simply needs to press q to get out
+
+
+
+viewing commits from a particular dev or user
+
+git log --author="username"
+
+if it can't find someone than it will disappear
+
+git status - compares repo versus the repo for changes
+
+Git workflow
+
+git add second.txt(example text file or file in general)
+
+
+
+
+
+
+
+
+
