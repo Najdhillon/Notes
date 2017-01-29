@@ -150,6 +150,21 @@ too many comments is prograblly a sign of poorly written code
 comments should explain why, not what. They can optinally explain how if that's particularly confusing.
 
 
+What are the types of comments in JS?
+
+// This is single line comment
+
+/* But this is a multiline comment. 
+
+            */
+        
+        
+A single line comment is appropriate if you;re going to put a comment right above a single statement, or even at the end of a line
+
+The multiline comment is appropriate if you have several lines worth of explaination to makei n your comment
+
+
+
 
 
 
