@@ -1,8 +1,10 @@
-You Don't Know JS: Up and Going
+You Don't Know JS: Up and Going (Ch1)
 
 What is a program?
 
 Also known as source code. A special instructiosn to tell the computer what tasks to perform
+
+a collection of statements, which together describe all the steps that it takes to perform your program's purpose
 
 What is computer language?
 
@@ -18,9 +20,138 @@ simple boxes you can store any of your stuff in. Variables hold values to be use
 
 What is a literal value?
 
-it stands alone without being stored in a variable.
+it stands alone without being stored in a variable
 
 What is a operators?
 
-= and * characters are operators. They perform actions with the vales and variables such as assignment and mathematic multipication.
+= and * characters are operators. They perform actions with the vales and variables such as assignment and mathematic multipication
+
+how we perform actions on variables and values
+
+
+How does JS conclude its statement?
+
+With a semicolon (;)
+
+What are expressions?
+
+any reference to a variable or value, or a set of variables and values combined with operators
+
+ex.
+
+a = b * 2
+
+2 is a literal value expression
+
+b is a variable expression, which means to retrieve its current value
+
+b * 2 is an arithmetic expression, which means to do the multiplication
+
+a = b * 2 is an assignment expression
+
+expression statement: b * 2
+
+What is call expression statement?
+
+the entire statement is the function call expression itself
+
+alert(a);
+
+
+What is interpreting the code?
+
+This translation of commands is typically done from top to bottom, line by line, every time the program is run
+
+What is compiling the code?
+
+the translation is done ahead of time, so when the program runs later, what's running is actually the already compiled computer instructions ready to go
+
+Is Javascript a compiled or interpreted language?
+
+Javascript source code is processed each time it's run. The javascript engine actually compiles the program on the fly and then immediately runs the compiled code
+
+
+Console tips
+
+use an empty page to launch the console
+
+multi line: shift+enter
+
+What is var?
+
+it's a keyword that is the primary way you declare variables
+
+ex
+
+var a = 20;
+
+What are the most common operators in JavaScript?
+
+Assignment: = 
+
+Math: +, - , *, /
+
+Compound Assignment: +=, -=. *=, and /= are compound operators that combine a math operation with assignment
+
+ex. a += 2 same as (a = a + 2)
+
+Increment/ Decrement: ++(increment), -- (decrement), as in a++ similar to a = a + 1
+
+Equality: ==(loose-equals), ===(strict-equals), != (loose not-equals), !==(strict not-equals)
+
+Comparison: < (less than) >(greater than) <=(less than or loose-equals) >= (greater than or loose-equals)
+
+Logical: && (and) || (or) 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+What are types?
+
+different representations for values. JS has built-in types for each of these so called primitive values
+
+number = math
+string = one or more characters, words, sentences
+boolean = true or false
+
+What are literals?
+
+values that are included directly in the source code
+string literals are surrounded by double quote "..." or single quotes '..' -- only difference is stylistic preference
+boolean literals are just presented as is(i.e. 42, true, etc)
+
+What is coercion?
+
+conversion of types from one to another, ex. number type to a string, in order words a string is coercion to a number
+
+
+ex var b = Number(a);
+
+What do you use when  one tries compare two values that are not of the same type?
+
+implicit coercion
+
+you can say it is loosely equal
+
+At time javascript will implicitly coerce values to the matching type
+for example "99" == 99;
+
+JS will convert "99" to 99 which would make that statement true
+
+What are code comments
+
+bits of text in your program that are inserted purely to explain things to a human
+
+What are some helpful tips for comments?
+
+Code without comments is suboptimal
+
+too many comments is prograblly a sign of poorly written code
+
+comments should explain why, not what. They can optinally explain how if that's particularly confusing.
+
+
+
+
+
+
 
