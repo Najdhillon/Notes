@@ -161,12 +161,29 @@ What are the types of comments in JS?
         
 A single line comment is appropriate if you;re going to put a comment right above a single statement, or even at the end of a line
 
-The multiline comment is appropriate if you have several lines worth of explaination to makei n your comment
+The multiline comment is appropriate if you have several lines worth of explaination to make in your comment
 
+What is Static typing?
 
+also known as type enforcement, is typically cited as a benefit for program correctness by preventing unintended value conversions.
 
+What is Weak typing?
 
+Also known as dynamic typing. It allows a variabel to hold any type of value at any time
 
+JS uses dynamic typing, meaning variables can hold values of any type without any type enforcement
 
+How do we declare variables in JS?
 
+we use var statement
+
+var amount = 99.99;
+
+amount = amount * 2;
+
+console.log(amount);
+
+amount = "$" + String(amonut);
+
+console.log(amount);
 
