@@ -187,3 +187,9 @@ amount = "$" + String(amonut);
 
 console.log(amount);
 
+What is state?
+
+tracking the changes to values as your program runs
+
+primary purpose of variables: Managing program state
+
