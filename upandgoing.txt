@@ -415,3 +415,53 @@ amount = calculateFinalPurchaseAmount ( amount );
 
 console.log ( amount.toFixed( 2 ));
 
+
+What is scope?
+
+a collection of variables as well as the rules for how those variables are accessed by name. Only code inside that function can access that function's scoped variables
+
+variable name has to be unique within the same scope
+
+function one() {
+
+    //this 'a' only belongs to the 'one()' function
+    var a = 1;
+    console.log(a);
+}
+
+function two() {
+
+    //this 'a' only belongs to the 'two()' function
+    var a = 2;
+    console.log(a);
+}
+
+one(); //1
+two(); //2
+
+if one scope is nested inside another, code inside the innermost scope can access variables from either scope
+
+ex
+
+function outer() {
+
+    var a = 1;
+    
+    function inner() {
+    
+        var b =2;
+        
+        console.log( a + b );
+    }
+    
+    inner();
+    
+    //we can only access 'a' here
+    
+    console.log(a);
+}
+
+outer();
+
+
+    
