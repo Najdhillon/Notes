@@ -2,7 +2,7 @@ You Don't Know JS: Up and Going (Ch1)
 
 What is a program?
 
-Also known as source code. A special instructiosn to tell the computer what tasks to perform
+Also known as source code. A special instructions to tell the computer what tasks to perform
 
 a collection of statements, which together describe all the steps that it takes to perform your program's purpose
 
@@ -24,7 +24,7 @@ it stands alone without being stored in a variable
 
 What is a operators?
 
-= and * characters are operators. They perform actions with the vales and variables such as assignment and mathematic multipication
+= and * characters are operators. They perform actions with the vales and variables such as assignment and mathematic multiplication
 
 how we perform actions on variables and values
 
@@ -87,7 +87,7 @@ var a = 20;
 
 What are the most common operators in JavaScript?
 
-Assignment: = 
+Assignment: =
 
 Math: +, - , *, /
 
@@ -101,7 +101,7 @@ Equality: ==(loose-equals), ===(strict-equals), != (loose not-equals), !==(stric
 
 Comparison: < (less than) >(greater than) <=(less than or loose-equals) >= (greater than or loose-equals)
 
-Logical: && (and) || (or) 
+Logical: && (and) || (or)
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
@@ -145,23 +145,23 @@ What are some helpful tips for comments?
 
 Code without comments is suboptimal
 
-too many comments is prograblly a sign of poorly written code
+too many comments is probably a sign of poorly written code
 
-comments should explain why, not what. They can optinally explain how if that's particularly confusing.
+comments should explain why, not what. They can optionally explain how if that's particularly confusing.
 
 
 What are the types of comments in JS?
 
 // This is single line comment
 
-/* But this is a multiline comment. 
+/* But this is a multiline comment.
 
             */
-        
-        
+
+
 A single line comment is appropriate if you;re going to put a comment right above a single statement, or even at the end of a line
 
-The multiline comment is appropriate if you have several lines worth of explaination to make in your comment
+The multiline comment is appropriate if you have several lines worth of explanation to make in your comment
 
 What is Static typing?
 
@@ -169,7 +169,7 @@ also known as type enforcement, is typically cited as a benefit for program corr
 
 What is Weak typing?
 
-Also known as dynamic typing. It allows a variabel to hold any type of value at any time
+Also known as dynamic typing. It allows a variable to hold any type of value at any time
 
 JS uses dynamic typing, meaning variables can hold values of any type without any type enforcement
 
@@ -183,7 +183,7 @@ amount = amount * 2;
 
 console.log(amount);
 
-amount = "$" + String(amonut);
+amount = "$" + String(amount);
 
 console.log(amount);
 
@@ -193,13 +193,13 @@ tracking the changes to values as your program runs
 
 primary purpose of variables: Managing program state
 
-What is are constates?
+What is a constant?
 
-when you declare a variable with a value and inted for that value to not change throughout the program
+when you declare a variable with a value and intend for that value to not change throughout the program
 
 declared at the top of program
 
-constants are captilized, with underscores between multiple words
+constants are capitalized, with underscores between multiple words
 
 var TAX_RATE = 0.08;
 
@@ -213,11 +213,11 @@ console.log(amount);
 console.log(amount.toFixed(2));
 
 
-What is the new way to write a variable as a constanst in JS?
+What is the new way to write a variable as a constant in JS?
 
 const TAX_RATE = 0.08;
 
-var amonut = 99.99;
+var amount = 99.99;
 
 
 What is a block?
@@ -306,14 +306,15 @@ What is an iteration?
 each time the loop block executes that is called an iteration
 
 What are the difference between while loop and do..while loop
+
 while loop
 
 while (numOfCustomers > 0) {
 
     console.log( "How may I help you?" );
-    
+
     //help the customer...
-    
+
     numOfCustomers = numOfCustomers - 1;
 }
 
@@ -322,11 +323,11 @@ while (numOfCustomers > 0) {
 do {
 
     console.log( "How may I help you?" );
-    
+
     // help the customers...
-    
+
     numOfCustomers = numOfCustomers - 1;
-    
+
 } while (numOfCustomers > 0);
 
 The difference is between to these loops is whether the conditional is tested before the first iteration (while) or after the first iteration ( do while )
@@ -340,10 +341,10 @@ var i = 0;
 while (true) {
 
     if ((i<=9) === false) {
-    
+
         break;
     }
-    
+
     console.log(i);
     i = i + 1;
 }
@@ -401,10 +402,10 @@ functions can be useful just to organize related bits of code into named collect
 const TAX_RATE = 0.08;
 
 function calculateFinalPurchaseAmount(amt) {
-    
+
     // calculate the new amount with the tax
     amt = amt + (amt * TAX_RATE);
-    
+
     //return the new amount
     return amt;
 }
@@ -446,22 +447,19 @@ ex
 function outer() {
 
     var a = 1;
-    
+
     function inner() {
-    
+
         var b =2;
-        
+
         console.log( a + b );
     }
-    
+
     inner();
-    
+
     //we can only access 'a' here
-    
+
     console.log(a);
 }
 
 outer();
-
-
-    
