@@ -137,7 +137,7 @@ for example "99" == 99;
 
 JS will convert "99" to 99 which would make that statement true
 
-What are code comments
+What are code comments?
 
 bits of text in your program that are inserted purely to explain things to a human
 

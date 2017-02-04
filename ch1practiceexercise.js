@@ -7,11 +7,17 @@ const phone = 10;
 
 const paccessory = 10;
 
+function calculateTax() {
+    
+    newTotal = (phone+paccessory)*tax;
+    return newTotal;
+}
+
 while (totalMoney > 0) {
 
   if (totalMoney < purchase) {
 
-    purchase = phone + paccessory + ((phone+paccessory)*tax);
+    purchase = phone + paccessory + calculateTax();
 
     console.log("Your total purchase is $ " + purchase)
 

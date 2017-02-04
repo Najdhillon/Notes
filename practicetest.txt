@@ -1,0 +1,70 @@
+What is a program?
+
+What is computer language?
+
+What is a statement?
+
+What is a variable?
+
+What is a literal value?
+
+What is a operators?
+
+How does JS conclude its statement?
+
+What are expressions?
+
+What is interpreting the code?
+
+What is compiling the code?
+
+Is Javascript a compiled or interpreted language?
+
+What is var?
+
+What are the most common operators in JavaScript?
+
+What are types?
+
+What are literals?
+
+What is coercion?
+
+What do you use when  one tries compare two values that are not of the same type?
+
+What are code comments?
+
+What are some helpful tips for comments?
+
+What are the types of comments in JS?
+
+What is Static typing?
+
+What is Weak typing?
+
+How do we declare variables in JS?
+
+What is state?
+
+What is a constant?
+
+What is the new way to write a variable as a constant in JS?
+
+What is a block?
+
+How is a block defined in JS?
+
+What are conditionals statement?
+
+What are loops ?
+
+What is an iteration?
+
+What are the difference between while loop and do..while loop?
+
+What is a function?
+
+What are arguments?
+
+What is scope?
+
