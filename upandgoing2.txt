@@ -1,2 +1,76 @@
 Up and Going... Ch 2
 
+Values & Types
+
+Important point: Javascript has typed values, not typed variables
+
+What are the built-in types that are available?
+
+string
+
+number
+
+boolean
+
+null and undefined
+
+object
+
+symbol (new to ES6)
+
+What does typeof operator operator do?
+
+it can examine a value and tell you what you what type it is
+
+ex.
+
+a = 42;
+
+typeof a;   //number
+
+What is the object type?
+
+a compound value where you can set properties (name locations) that each hold their own values of any type. This is perhaps one of the most useful value types in all of Javascript.
+
+
+How would you write a object
+
+var obj = {
+
+    a: "hello world",
+    b: 42,
+    c: true
+};
+
+
+How can properties be accessed of an object?
+
+through dot notation or bracket notation
+
+obj.a;
+obj.b;
+obj.c;
+
+obj.["a"];
+obj.["b"];
+obj.["c"];
+
+
+array and function .. subtypes -- specialized versions of the object type
+
+What is an array?
+
+An array is an object that holds values(of any type) not particulary in name properties/keys, but rather in numerically indexed positions
+
+var arr = [
+    "hello world",
+    42,
+    true
+];
+
+arr[0];
+arr[1];
+arr[2];
+arr.length;
+
+typeof arr;
